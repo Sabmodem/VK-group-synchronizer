@@ -1,0 +1,6 @@
+from abc import ABC, abstractmethod
+
+class UpdateGroupsUseCase(ABC):
+    @abstractmethod
+    async def execute(self) -> None:
+        pass
